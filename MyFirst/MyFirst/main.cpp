@@ -20,8 +20,6 @@
      cout<<"input name";
      cin>>name;
      cout<<"my name is "<<name<<",and i live in "<<address;
-     cout<<"github";
-     
     
 }
 
