@@ -20,7 +20,11 @@
      cout<<"input name";
      cin>>name;
      cout<<"my name is "<<name<<",and i live in "<<address;
+<<<<<<< HEAD
      cout<<"dev";
+=======
+     
+>>>>>>> parent of 86145e2... ruan
     
 }
 
