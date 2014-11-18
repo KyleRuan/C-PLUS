@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B71019E91A09EEC4003B8197 /* Kidd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B71019E81A09EEC4003B8197 /* Kidd.cpp */; };
+		B7B87AF21A1B46C200EAB9ED /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B87AF11A1B46C200EAB9ED /* File.cpp */; };
+		B7B87AF51A1B4CBF00EAB9ED /* subdivide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B87AF41A1B4CBF00EAB9ED /* subdivide.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B709F1B41A07C03E0032A2DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B709F1B61A07C03E0032A2DF /* kid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kid; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71019E81A09EEC4003B8197 /* Kidd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kidd.cpp; sourceTree = "<group>"; };
+		B7B87AF11A1B46C200EAB9ED /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		B7B87AF41A1B4CBF00EAB9ED /* subdivide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subdivide.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		B709F1AD1A07C03E0032A2DF = {
 			isa = PBXGroup;
 			children = (
+				B7B87AF31A1B4C9600EAB9ED /*  c++ primer */,
 				B74015AD1A0A67250012E2A8 /* Sort */,
 				B71019E81A09EEC4003B8197 /* Kidd.cpp */,
 				B709F1B71A07C03E0032A2DF /* Products */,
@@ -58,8 +63,17 @@
 		B74015AD1A0A67250012E2A8 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
+				B7B87AF11A1B46C200EAB9ED /* File.cpp */,
 			);
 			name = Sort;
+			sourceTree = "<group>";
+		};
+		B7B87AF31A1B4C9600EAB9ED /*  c++ primer */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87AF41A1B4CBF00EAB9ED /* subdivide.cpp */,
+			);
+			name = " c++ primer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71019E91A09EEC4003B8197 /* Kidd.cpp in Sources */,
+				B7B87AF51A1B4CBF00EAB9ED /* subdivide.cpp in Sources */,
+				B7B87AF21A1B46C200EAB9ED /* File.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
