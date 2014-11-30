@@ -5,11 +5,11 @@
 //  Created by Jason on 14/11/26.
 //  Copyright (c) 2014年 Jason. All rights reserved.
 //
-
+/*
 #include <stdio.h>
 #include "SALES.h"
 
-/*
+
 int main(){
     using namespace SALES;
          Sales as;

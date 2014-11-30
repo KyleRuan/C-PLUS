@@ -5,7 +5,7 @@
 //  Created by Jason on 14/11/5.
 //  Copyright (c) 2014年 Jason. All rights reserved.
 
-//6.11.9
+/*
 #include <iostream>
 class Ni{
     int k;
@@ -30,3 +30,4 @@ int main(){
     wo=wo.show(13);
     std::cout<<1;
 }
+*/
